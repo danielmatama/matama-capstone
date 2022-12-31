@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#introduction {
+  background-image: url("images/color.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.hello {
+  display: flex;
+  justify-content: center;
+  color: #ff6347;
+  font-family: sans-serif;
+  margin-top: 30px;
+  margin-left: 5px;
+}
+
+.topic {
+  width: 350px;
+  margin-left: 5px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.topic1 {
+  display: flex;
+  text-align: center;
+  color: #ff4500;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+.text {
+  padding-top: 20px;
+  margin-left: 5px;
+  padding-left: 10px;
+  width: 350px;
+  border: solid 2px white;
+  background-color: white;
+}
+
+.text1 {
+  display: flex;
+  text-align: center;
+  color: #696969;
+  margin-bottom: 30px;
+}
+
+.contact1 {
+  display: flex;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.mail {
+  margin-left: 70px;
+  font-weight: bold;
+  text-decoration: underline;
+  padding-bottom: 40px;
+}
+
+.logo-topic {
+  display: flex;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.logo-text {
+  display: flex;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  color: #696969;
+}
+
+.logo-img {
+  border: solid 2px grey;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 40px;
+}
+
+.logo-img1 {
+  margin-left: 100px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 150px;
+  height: 150px;
+}
+
+#past-forum {
+  padding-top: 20px;
+  border-top: solid 1px grey;
+}
+
+.past-topic {
+  font-family: sans-serif;
+  display: flex;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.past-text {
+  display: flex;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #696969;
+}
+
+.head {
+  width: 100vw;
+  height: 300px;
+  background: #ff4500;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.past-img {
+  object-fit: cover;
+  opacity: 0.4;
+}
+
+.head-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#partners {
+  background-color: #696969;
+}
+
+.partner-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.partner-imgs {
+  display: flex;
+  flex-direction: row;
+}
+
+.partner-img {
+  width: 150px;
+  height: 150px;
+}
+
+.copy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #454647;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
