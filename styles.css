@@ -3,8 +3,16 @@
   padding: 0;
 }
 
+.socials {
+  display: none;
+}
+
+.navbar {
+  display: none;
+}
+
 #introduction {
-  background-image: url("images/color.jpg");
+  background-image: url("images/color-mobile.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -196,8 +204,154 @@
 }
 
 .btn {
+  display: flex;
   margin-left: 100px;
   margin-top: 40px;
   margin-bottom: 40px;
   background-color: #ff4500;
+}
+
+.see {
+  display: none;
+}
+
+/* ....///desktop css...// */
+@media screen and (min-width: 768px) {
+  #introduction {
+    background-image: url("images/color.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+  .socials {
+    display: flex;
+    width: 100vw;
+    height: 30px;
+    background-color: #454647;
+  }
+
+  .socials1 {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 900px;
+  }
+
+  .icon {
+    margin-right: 30px;
+  }
+
+  .social-text {
+    color: white;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #navbarSupportedContent {
+    padding-left: 400px;
+  }
+
+  .nav-item {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .nav-show {
+    margin-left: 20px;
+    border: solid 3px #ff4500;
+  }
+
+  .home {
+    color: #ff4500;
+  }
+
+  .art {
+    width: 200px;
+    height: 50px;
+    margin-left: 100px;
+  }
+
+  .nv {
+    color: #454647;
+  }
+
+  .dropdown-button {
+    display: none;
+  }
+
+  .intro-texts {
+    width: 80vw;
+  }
+
+  .hello {
+    margin-left: 300px;
+    font-size: 40px;
+  }
+
+  .topic {
+    width: 890px;
+  }
+
+  .topic1 {
+    margin-left: 300px;
+    font-size: 60px;
+    font-weight: bolder;
+  }
+
+  .text {
+    width: 780px;
+    margin-left: 320px;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .date {
+    width: 780px;
+    margin-left: 320px;
+  }
+
+  .date1 {
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .location {
+    width: 780px;
+    margin-left: 320px;
+    font-size: 25px;
+  }
+
+  .progos {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+  }
+
+  .progo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .see {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: underline;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
