@@ -15,6 +15,53 @@
   display: none;
 }
 
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  width: 100vh;
+  height: 100vh;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  padding-bottom: 40px;
+}
+
+.ax {
+  font-family: 'Inter', sans-serif;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 20px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #ff4500;
+}
+
+a.ax {
+  text-decoration: none;
+}
+
+.xmark {
+  margin-left: 340px;
+  margin-top: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  border: 15px solid #c1c7d0;
+}
+
 #introduction {
   background-image: url("images/color.png");
   background-repeat: no-repeat;
@@ -221,8 +268,9 @@
     flex-direction: row;
   }
 
-  #navbarSupportedContent {
-    padding-left: 400px;
+  .lists {
+    margin-left: 10px;
+    padding-right: 100px;
   }
 
   .nav-item {
@@ -239,22 +287,14 @@
     color: #ff4500;
   }
 
-  .art {
-    width: 200px;
+  .arta {
+    width: 100px;
     height: 50px;
     margin-left: 100px;
   }
 
-  .nv {
-    color: #454647;
-  }
-
-  .home {
-    color: #ff4500;
-  }
-
   .art {
-    width: 200px;
+    width: 100px;
     height: 50px;
     margin-left: 100px;
   }
@@ -273,11 +313,11 @@
   }
 
   .topic {
-    width: 890px;
+    width: 940px;
   }
 
   .topic1 {
-    margin-left: 300px;
+    margin-left: 350px;
     font-size: 60px;
     font-weight: bolder;
   }
@@ -288,6 +328,12 @@
     background-color: white;
     margin-top: 30px;
     margin-bottom: 40px;
+  }
+
+  .text1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .cut {
@@ -316,6 +362,7 @@
 
   .logo-text {
     display: flex;
+    flex-direction: column;
     justify-content: center;
   }
 
@@ -323,8 +370,6 @@
     margin-left: 120px;
     margin-right: 120px;
     display: flex;
-    flex-direction: row;
-    text-align: center;
   }
 
   .cut1 {
@@ -333,10 +378,10 @@
 
   .logo-img {
     display: flex;
-    align-items: center;
-    padding-right: 300px;
+    flex-direction: row;
+    margin-right: : 300px;
     margin-left: 500px;
-    width: 150px;
+    width: 350px;
   }
 
   .past-topic {
