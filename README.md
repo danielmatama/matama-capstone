@@ -42,7 +42,7 @@
 
 **[Uganda Annual Culture Forum]** is an annual meeting where people from all parts of the world meet to discuss and celebrate Ugandan Culture...
 
-## 🛠 Built With HTML, JavaScript and Bootstrap<a name="built-with"></a>
+## 🛠 Built With HTML, CSS, JavaScript and Bootstrap<a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
