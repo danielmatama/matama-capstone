@@ -29,6 +29,7 @@ section.innerHTML = `
 <div class=f-show>
 <div class="speaker">
 <div class="f-img">
+  <img src="images/checked.png" alt="" class="checked">
   <img src="images/feature1.png" alt="" class="f-speak">
 </div>
 <div class="f-texts">
@@ -40,6 +41,7 @@ section.innerHTML = `
 
 <div class="speaker">
 <div class="f-img">
+  <img src="images/checked.png" alt="" class="checked">
   <img src="images/feature2.png" alt="" class="f-speak">
 </div>
 <div class="f-texts">
@@ -53,6 +55,7 @@ section.innerHTML = `
 <div class="f-hide">
 <div class="speaker">
 <div class="f-img">
+  <img src="images/checked.png" alt="" class="checked">
   <img src="images/feature3.png" alt="" class="f-speak">
 </div>
 <div class="f-texts">
@@ -64,6 +67,7 @@ section.innerHTML = `
 
 <div class="speaker">
 <div class="f-img">
+  <img src="images/checked.png" alt="" class="checked">
   <img src="images/feature4.png" alt="" class="f-speak">
 </div>
 <div class="f-texts">
