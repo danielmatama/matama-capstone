@@ -45,7 +45,7 @@ a.ax {
 }
 
 .xmark {
-  margin-left: 340px;
+  margin-left: 320px;
   margin-top: 20px;
 }
 
@@ -210,8 +210,9 @@ a.ax {
 
 .partner-text {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   color: white;
   padding-top: 20px;
   padding-bottom: 30px;

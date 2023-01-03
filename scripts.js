@@ -20,7 +20,10 @@ const section = document.createElement('section');
 body.appendChild(section);
 section.innerHTML = `
 
+<div class="f-topica">
 <h3 class="f-topic">Featured Speakers</h3>
+<hr style="height:2px; width: 40px;border-width:0;color:#ff4500;background-color:#ff4500;">
+</div>
 
 <div class="speakers">
 <div class=f-show>

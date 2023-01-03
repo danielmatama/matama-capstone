@@ -37,7 +37,7 @@
 }
 
 .xmark {
-  margin-left: 340px;
+  margin-left: 320px;
   margin-top: 20px;
 }
 
@@ -114,6 +114,8 @@
 
 .prog {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -259,6 +261,12 @@
   display: none;
 }
 
+.f-topica {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .f-topic {
   display: flex;
   justify-content: center;
@@ -323,8 +331,9 @@
 
 .partner-text {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   color: white;
   padding-top: 20px;
   padding-bottom: 30px;
