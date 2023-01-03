@@ -73,9 +73,9 @@
 
 > Describe between 1-3 key features of the application.
 
-- **[Lectures]**
-- **[Presentations]**
-- **[Meet and Greet]**
+- **Lectures**
+- **Presentations**
+- **Meet and Greet**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
