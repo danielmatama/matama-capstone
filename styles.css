@@ -95,6 +95,7 @@
 .date {
   font-family: sans-serif;
   margin-top: 10px;
+  margin-left: 10px;
 }
 
 .date1 {
@@ -104,6 +105,7 @@
 .location {
   color: #696969;
   margin-bottom: 0;
+  margin-left: 10px;
   padding-bottom: 30px;
 }
 
