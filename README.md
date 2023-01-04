@@ -85,7 +85,7 @@
 
 > Add a link to your deployed project.
 
-- [https://danielmatama.github.io/matama-s-portfolio/](https://danielmatama.github.io/matama-s-portfolio/)
+- [https://danielmatama.github.io/matama-capstone/](https://danielmatama.github.io/matama-capstone/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
