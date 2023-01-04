@@ -3,7 +3,7 @@
 
 <div align="center">
 
-  <img src="red.png" alt="logo" width="140"  height="auto" />
+  <img src="images/red.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>UGANDA ANNUAL CULTURE FORUM</b></h3>
