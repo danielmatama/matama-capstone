@@ -89,6 +89,14 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Presentation <a name="presentation"></a>
+
+> Add a link to your deployed project.
+
+- [https://www.loom.com/share/40a6700159b74234983f5c9c6cce1206](https://www.loom.com/share/40a6700159b74234983f5c9c6cce1206)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -213,9 +221,9 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank Cindy Shin
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="https://www.behance.net/adagio07">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
