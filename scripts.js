@@ -26,65 +26,73 @@ section.innerHTML = `
 </div>
 
 <div class="speakers">
-<div class=f-show>
-<div class="speaker">
-<div class="f-img">
-  <img src="images/checked.png" alt="" class="checked">
-  <img src="images/feature1.png" alt="" class="f-speak">
-</div>
 <div class="f-texts">
-  <h4 class="f-title">Musiime phillip</h4>
-  <p class="f-para">Head of board of governors</p>
-  <p class="f-para2">He has led this organisation since 1995</p>
+  <h4 class="f-title"></h4>
+  <p class="f-para"></p>
+  <p class="f-para2"></p>
 </div>
 </div>
 
-<div class="speaker">
-<div class="f-img">
-  <img src="images/checked.png" alt="" class="checked">
-  <img src="images/feature2.png" alt="" class="f-speak">
 </div>
-<div class="f-texts">
-  <h4 class="f-title">Oscar Dickens</h4>
-  <p class="f-para">Head Linguist</p>
-  <p class="f-para2">He has translated over 50 Ugandan languages to English</p>
-</div>
-</div>
-</div>
-
-<div class="f-hide">
-<div class="speaker">
-<div class="f-img">
-  <img src="images/checked.png" alt="" class="checked">
-  <img src="images/feature3.png" alt="" class="f-speak">
-</div>
-<div class="f-texts">
-  <h4 class="f-title">Dan Otto</h4>
-  <p class="f-para">Historian</p>
-  <p class="f-para2">Has decoded acient Ugandan history for the first time</p>
-</div>
-</div>
-
-<div class="speaker">
-<div class="f-img">
-  <img src="images/checked.png" alt="" class="checked">
-  <img src="images/feature4.png" alt="" class="f-speak">
-</div>
-<div class="f-texts">
-  <h4 class="f-title">Rajesh Omar</h4>
-  <p class="f-para">Cultral Dancer</p>
-  <p class="f-para2">Has represented Ugandan dance culture for over 10 years</p>
-</div>
-</div>
-</div>
-
 <button type="button" name="button" class="btn-f">MORE<span><img src="images/down.png" alt="" class="down"></span></button>
 
-</div>
 `;
 
-// ....///features more...//
+const speakersArray = [{
+    name: 'Phil Musiime',
+    university: ' Chairman of Board',
+    checkedImg: './images/checked.png',
+    img: './images/feature1.png',
+    biodata: 'He has led this organisation, with great success since 1995',
+  },
+  {
+    name: 'Oscar Dickens',
+    university: 'Head Linguist',
+    checkedImg: './images/checked.png',
+    img: './images/feature2.png',
+    biodata: 'He has translated over 50 Ugandan languages to English',
+  },
+  {
+    name: 'Dan Otto',
+    university: 'Historian',
+    checkedImg: './images/checked.png',
+    img: './images/feature3.png',
+    biodata: 'He has translated hundreds of acient Ugandan texts.',
+  },
+  {
+    name: 'Rajesh Omar',
+    university: 'Cultral Dancer',
+    checkedImg: './images/checked.png',
+    img: './images/feature4.png',
+    biodata: 'Has represented Ugandan dance culture for over 10 years',
+  },
+];
 
+const keySpeakers = document.querySelector('.speakers');
+speakersArray.forEach((speaker) => {
+  const {
+    name,
+    university,
+    checkedImg,
+    img,
+    biodata
+  } = speaker;
+  keySpeakers.innerHTML += `
+  <div class="speaker">
+  <div class="f-img">
+    <img src=${checkedImg} alt="" class="checked">
+    <img src=${img} alt="" class="f-speak">
+  </div>
+  <div class="f-texts">
+    <h4 class="f-title">${name}</h4>
+    <p class="f-para">${university}</p>
+    <p class="f-para2">${biodata}</p>
+  </div>
+  </div>
+`;
+});
+
+// ....///features more...//
 const dropFeatures = document.querySelector('.btn-f');
 const featuresMenu = document.querySelector('.f-hide');
 dropFeatures.addEventListener('click', () => {

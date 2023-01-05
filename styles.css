@@ -57,7 +57,8 @@
 #introduction {
   background-image: url("images/color-mobile.png");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   background-size: 100% 100%;
 }
 
@@ -371,6 +372,23 @@
   padding-bottom: 20px;
 }
 
+.footer-logo {
+  width: 50px;
+  height: 50px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.c-f {
+  display: flex;
+  flex-direction: column;
+}
+
+.copy-footer {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
 /* ....///desktop css...// */
 @media screen and (min-width: 768px) {
   #introduction {
@@ -518,27 +536,17 @@
 
   .speakers {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-right: 80px;
-    margin-left: 80px;
-  }
-
-  .f-hide {
-    display: flex;
     flex-direction: row;
-  }
-
-  .f-show {
-    display: flex;
-    flex-direction: row;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    margin-right: 40px;
   }
 
   .speaker {
     display: flex;
-    align-items: center;
-    margin-left: 80px;
-    width: 350px;
+    flex-direction: row;
+    width: 600px;
+    padding-left: 100px;
   }
 
   .f-para2 {

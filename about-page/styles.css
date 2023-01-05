@@ -65,7 +65,8 @@ a.ax {
 #introduction {
   background-image: url("images/color.png");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   background-size: 100% 100%;
 }
 
@@ -235,6 +236,26 @@ a.ax {
   color: #454647;
   padding-top: 30px;
   padding-bottom: 20px;
+}
+
+.footer-logo {
+  width: 50px;
+  height: 50px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.c-f {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.copy-footer {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
 }
 
 @media screen and (min-width: 768px) {
