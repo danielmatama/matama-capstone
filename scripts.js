@@ -15,6 +15,7 @@ Items.forEach((n) => {
   });
 });
 
+
 const body = document.querySelector('body');
 const section = document.createElement('section');
 body.appendChild(section);

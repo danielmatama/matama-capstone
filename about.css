@@ -63,7 +63,7 @@ a.ax {
 }
 
 #introduction {
-  background-image: url("images/color.png");
+  background-image: url("about-page/images/color.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -433,7 +433,25 @@ a.ax {
   }
 
   .copy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     color: white;
     background-color: #454647;
+    padding-bottom: 50px;
+  }
+
+  .footer-logo {
+    padding-bottom: : 20px;
+  }
+
+  .copy-footer {
+    padding-top: 30px;
+  }
+
+  .copy-footer2 {
+    padding-top: 30px;
+    margin-left: 50px;
   }
 }
