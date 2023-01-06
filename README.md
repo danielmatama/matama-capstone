@@ -221,7 +221,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank Cindy Shin
+I would like to thank Cindy Shin https://www.behance.net/adagio07 author of the original design https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
 
 <p align="right">(<a href="https://www.behance.net/adagio07">back to top</a>)</p>
 
