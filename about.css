@@ -1,0 +1,453 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-button {
+  display: flex;
+}
+
+.socials {
+  display: none;
+}
+
+.navbar {
+  display: none;
+}
+
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  width: 100vh;
+  height: 100vh;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  padding-bottom: 40px;
+}
+
+.ax {
+  font-family: 'Inter', sans-serif;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 20px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #ff4500;
+}
+
+a.ax {
+  text-decoration: none;
+}
+
+.xmark {
+  margin-left: 320px;
+  margin-top: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  border: 15px solid #c1c7d0;
+}
+
+#introduction {
+  background-image: url("about-page/images/color.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-size: 100% 100%;
+}
+
+.hello {
+  display: flex;
+  justify-content: center;
+  color: #ff6347;
+  font-family: sans-serif;
+  margin-top: 30px;
+  margin-left: 5px;
+}
+
+.topic {
+  width: 350px;
+  margin-left: 5px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.topic1 {
+  display: flex;
+  text-align: center;
+  color: #ff4500;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+.text {
+  padding-top: 20px;
+  margin-left: 5px;
+  padding-left: 10px;
+  width: 350px;
+  border: solid 2px white;
+  background-color: white;
+}
+
+.text1 {
+  display: flex;
+  text-align: center;
+  color: #696969;
+  margin-bottom: 30px;
+}
+
+.cut {
+  display: none;
+}
+
+.contact1 {
+  display: flex;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.mail {
+  margin-left: 70px;
+  font-weight: bold;
+  text-decoration: underline;
+  padding-bottom: 40px;
+}
+
+.logo-topic {
+  display: flex;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.logo-text {
+  display: flex;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  color: #696969;
+}
+
+.cut1 {
+  display: none;
+}
+
+.logo-img {
+  border: solid 2px grey;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 40px;
+}
+
+.logo-img1 {
+  margin-left: 100px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 150px;
+  height: 150px;
+}
+
+#past-forum {
+  padding-top: 20px;
+  border-top: solid 1px grey;
+}
+
+.past-topic {
+  font-family: sans-serif;
+  display: flex;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.past-text {
+  display: flex;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #696969;
+}
+
+.head {
+  width: 100vw;
+  height: 300px;
+  background: #ff4500;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.past-img {
+  object-fit: cover;
+  opacity: 0.4;
+}
+
+.head-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#partners {
+  display: block;
+  background-color: #696969;
+}
+
+.partner-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.partner-imgs {
+  display: flex;
+  flex-direction: row;
+}
+
+.partner-img {
+  width: 150px;
+  height: 150px;
+}
+
+.copy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #454647;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.footer-logo {
+  width: 50px;
+  height: 50px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.c-f {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.copy-footer {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .socials {
+    display: flex;
+    width: 100vw;
+    height: 30px;
+    background-color: #454647;
+  }
+
+  .socials1 {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 900px;
+  }
+
+  .icon {
+    margin-right: 30px;
+  }
+
+  .social-text {
+    color: white;
+  }
+
+  .dropdown-button {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .lists {
+    margin-left: 10px;
+    padding-right: 100px;
+  }
+
+  .nav-item {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .nav-show {
+    margin-left: 20px;
+    border: solid 3px #ff4500;
+  }
+
+  .home {
+    color: #ff4500;
+  }
+
+  .arta {
+    width: 100px;
+    height: 50px;
+    margin-left: 100px;
+  }
+
+  .art {
+    width: 100px;
+    height: 50px;
+    margin-left: 100px;
+  }
+
+  .nv {
+    color: #454647;
+  }
+
+  .intro-texts {
+    width: 80vw;
+  }
+
+  .hello {
+    margin-left: 300px;
+    font-size: 40px;
+  }
+
+  .topic {
+    width: 940px;
+  }
+
+  .topic1 {
+    margin-left: 350px;
+    font-size: 60px;
+    font-weight: bolder;
+  }
+
+  .text {
+    width: 780px;
+    margin-left: 320px;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .text1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .cut {
+    display: flex;
+  }
+
+  .contact {
+    width: 100vw;
+  }
+
+  .contact1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mail {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+  }
+
+  .logo-topic {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .logo-texta {
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+  }
+
+  .cut1 {
+    display: flex;
+  }
+
+  .logo-img {
+    display: flex;
+    flex-direction: row;
+    margin-right: 300px;
+    margin-left: 500px;
+    width: 350px;
+  }
+
+  .past-topic {
+    display: flex;
+    justify-content: center;
+  }
+
+  .past-text {
+    display: flex;
+    justify-content: center;
+  }
+
+  .heado {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .head {
+    width: 400px;
+    margin-right: 30px;
+    margin-left: 10px;
+  }
+
+  #partners {
+    display: none;
+  }
+
+  .copy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #454647;
+    padding-bottom: 50px;
+  }
+
+  .copy-footer {
+    padding-top: 30px;
+  }
+
+  .copy-footer2 {
+    padding-top: 30px;
+    margin-left: 52px;
+  }
+}
