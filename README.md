@@ -40,7 +40,8 @@
 
 > Describe your project in 1 or 2 sentences.
 
-**[Uganda Annual Culture Forum]** is an annual meeting where people from all parts of the world meet to discuss and celebrate Ugandan Culture...
+**[Uganda Annual Culture Forum]** 
+This a webpage for an annual meeting where people from all parts of the world meet to discuss and celebrate Ugandan Culture...
 
 ## 🛠 Built With HTML, CSS, JavaScript and Bootstrap<a name="built-with"></a>
 
@@ -189,8 +190,8 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
+- [ ] **[Dance competition]**
+- [ ] **[Rotary]**
 - [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
