@@ -43,7 +43,7 @@
 **[Uganda Annual Culture Forum]** 
 This project is a tool for communication, advertisement and more. 
 It is a webpage designed for the Uganda Annual Cultural Forum. I has numerious features, is user friendly and very interactive.
-On top of the attractive culture pictures and illustrations, it also avails a wide range of information about the forum.
+On top of the attractive culture pictures and illustrations, it also avails a wide range of information about the forum. Built with HTML, CSS and JavaScript
 
 ## 🛠 Built With HTML, CSS, JavaScript and Bootstrap<a name="built-with"></a>
 
